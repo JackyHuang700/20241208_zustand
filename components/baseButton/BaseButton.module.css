@@ -1,0 +1,12 @@
+.btn{
+  @apply border-2 border-solid border-zinc-200 px-3.5 py-1.5 rounded-lg transition-all duration-300;
+  @apply hover:bg-zinc-700;
+}
+
+.btn-delete{
+  @apply border-rose-600 text-rose-600;
+}
+
+.btn-edit{
+  @apply border-cyan-600 text-cyan-600;
+}

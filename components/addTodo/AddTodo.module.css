@@ -1,0 +1,7 @@
+.input-style{
+  @apply bg-zinc-500 text-zinc-100 py-2 px-4 rounded-lg;
+}
+
+.input-style::placeholder{
+  @apply text-zinc-400;
+}
